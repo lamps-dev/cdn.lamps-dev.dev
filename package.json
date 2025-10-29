@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "mkdir -p public && npx -p marked marked -i README.md -o public/index.html"
+  }
+}
