@@ -1,5 +1,12 @@
 {
+  "name": "readme-site",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "mkdir -p public && npx -p marked marked -i README.md -o public/index.html"
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "github-markdown-css": "^5.5.1",
+    "marked": "^12.0.0"
   }
 }
